@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Event Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        .gallery-card img{
+            height:250px;
+            object-fit:cover;
+        }
+
+        .gallery-card{
+            transition:0.3s;
+        }
+
+        .gallery-card:hover{
+            transform:translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold"
+           href="index.html">
+            <i class="bi bi-calendar-event-fill"></i>
+            EventHub
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="events.html">
+                        Events
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active"
+                       href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="registration.html">
+                        Registration
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="schedule.html">
+                        Schedule
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- HEADER -->
+<section class="bg-light py-5">
+
+    <div class="container text-center">
+
+        <h1 class="fw-bold">
+            Event Gallery
+        </h1>
+
+        <p class="text-muted">
+            Memories from our college events
+        </p>
+
+    </div>
+
+</section>
+
+<!-- GALLERY -->
+<section class="container py-5">
+
+    <div class="row g-4">
+
+        <!-- Image 1 -->
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card gallery-card shadow-sm">
+
+                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800"
+                     class="card-img-top"
+                     alt="Event">
+
+                <div class="card-body text-center">
+
+                    <h5>Technical Event</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Image 2 -->
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card gallery-card shadow-sm">
+
+                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800"
+                     class="card-img-top"
+                     alt="Event">
+
+                <div class="card-body text-center">
+
+                    <h5>Hackathon</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Image 3 -->
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card gallery-card shadow-sm">
+
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800"
+                     class="card-img-top"
+                     alt="Event">
+
+                <div class="card-body text-center">
+
+                    <h5>Project Expo</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Image 4 -->
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card gallery-card shadow-sm">
+
+                <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800"
+                     class="card-img-top"
+                     alt="Event">
+
+                <div class="card-body text-center">
+
+                    <h5>Cultural Fest</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Image 5 -->
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card gallery-card shadow-sm">
+
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
+                     class="card-img-top"
+                     alt="Event">
+
+                <div class="card-body text-center">
+
+                    <h5>Coding Contest</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Image 6 -->
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card gallery-card shadow-sm">
+
+                <img src="https://wonkhe.com/wp-content/wonkhe-uploads/2019/09/wonkhe-students-lecture-2740x1541.jpg"
+                     class="card-img-top"
+                     alt="Event">
+
+                <div class="card-body text-center">
+
+                    <h5>Student Participation</h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+
+    <p class="mb-0">
+        © 2026 College Event Management System
+    </p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
